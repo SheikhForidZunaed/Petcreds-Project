@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mid-content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Header CSS Start */
+.header {
+    background-color: #32A2DB;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.header-content {
+    position: sticky;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content img {
+    width: 15vw;
+}
+
+.header-content input {
+    width: 15em;
+    background: transparent;
+    border: 2px solid #ddd;
+    padding: 7px 5px;
+    outline: none;
+}
+
+.header input::placeholder {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+.search-bar button {
+    color: #32A2DB;
+    background-color: #fff;
+    border: none;
+    padding: 9px 25px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+/* Header CSS End */
+
+/* container CSS Start */
+.banner {
+    height: 65vh;
+    background-image: url(/assets/images/container-bg.png);
+    background-size: cover;
+}
+
+.banner-content h2 {
+    color: #fff;
+    font-size: 3.3em;
+    font-weight: 600;
+    padding-top: 3em;
+    padding-bottom: .7em;
+
+}
+
+.search-form input {
+    padding: 12px 25px 11px 10px;
+    outline: none;
+    border: none;
+    margin-right: 8px;
+}
+
+.search-form input::placeholder {
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.search-form select {
+    background-color: #fff;
+    padding: 10px 35px 10px 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: #016182;
+    font-weight: 500;
+    width: 19em;
+    margin-right: 8px;
+}
+
+.search-form select option {
+    color: #016182;
+}
+
+.search-form button {
+    color: #ddd;
+    background-color: #32A2DB;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.advice-container {
+    /* height: 65vh; */
+    background-color: #016182;
+}
+
+.advice-container-content {
+    position: relative;
+}
+
+.advice-container-content h2 {
+    color: #32A2DB;
+    padding-top: 2em;
+    padding-bottom: .7em;
+}
+
+.advice-container-content p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 1.4em;
+}
+
+p span {
+    color: #83C68E;
+}
+
+.advice-container-content img {
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+}
+
+.advice-container-content a{
+   color: #fff;
+   background-color: #83C68E;
+   padding: 10px 20px;
+   display: inline-block;
+   margin-bottom: 7em;
+}
+
+.msg-icon i{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/* Portfolio Container Start */
+
+.portfolio-container img{
+    width: 300px;
+    margin: 50px 0;
+}
+
+.right{
+    margin-left: 5em;
+}
+.right h2{
+    margin-bottom: .6em;
+}
+
+.right h3{
+    margin-bottom: .6em;
+}
+
+.right ul li{
+    list-style-position: inside;
+    line-height: 1.5em;
+}
+
+/* Portfolio Container End */
+
+/* Pet list Container Start */
+.pet-list-container-content{
+    position: relative;
+    padding: 80px 0;
+}
+
+.pet-list-container-content img{
+    width: 300px;
+    position: absolute;
+    top: 130px;
+    right: 65px;
+}
+
+.pet-list-container-content h2{
+    margin-bottom: .6em;
+}
+
+.pet-list-container-content h3{
+    margin-bottom: .6em;
+}
+
+.pet-list-container-content ul li{
+    list-style-position: inside;
+    line-height: 1.5em;
+}
+
+.buttons{
+    display: flex;
+    width: 42%;
+    justify-content: space-between;
+}
+.buttons a{
+    background-color: #F58A1F;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 2em;
+}
+/* Pet list Container End */
+
+.get-app-container-content{
+    display: flex;
+    padding-top: 5.5em;
+    margin-bottom: -4px;
+    
+}
+
+.left img{
+    min-height: 100px;
+}
+
+/* get-app-container Start */
+.get-app-container-content{
+
+}
+
+.get-app-container-content img{
+    width: 300px;
+}
+
+.get-app-container-content .right ul{
+    margin-bottom: 2em;
+}
+
+.get-app-container-content a{
+    background-color: #666666;
+    padding: 10px 30px;
+}
+/* get-app-container End */
+
+/* Passionate Container Start */
+
+.passionate-container-content{
+    padding: 4em 0;
+}
+
+.passionate-container-content img{
+    width: 200px;
+    margin-left: 3em;
+}
+
+.left h2{
+    margin-bottom: .6em;
+}
+
+.left h3{
+    margin-bottom: .6em;
+}
+
+.left ul{
+    margin-bottom: 2em;
+}
+.left ul li{
+    list-style-position: inside;
+    line-height: 1.5em;
+
+}
+
+.passionate-buttons a{
+    padding: 10px 15px;
+}
+
+/* Passionate Container End */
+
+
+/* Footer CSS Start */
+
+.footer {
+    background-color: #016182;
+    height: 490px;
+}
+
+.footer-before {
+    background-color: #FFDB80;
+}
+
+.footer-before-content {
+    height: 80px;
+}
+
+.footer-before-content img {
+    width: 30px;
+    margin-right: 1em;
+}
+
+.footer-before-content h3 {
+    color: #016182;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-before-content h3 span{
+    color: #32A2DB;
+    font-weight: 600;
+    font-size: 22px;
+    margin-right: 8em;
+    margin-left: .3em;
+}
+
+/* Footer Menus Style Start */
+.footer-menu-list{
+    padding-top: 20px;
+    font-weight: 200;
+}
+
+.footer-heading-style{
+    padding: 5px 0;
+    border-bottom:1px solid #FFDB80;
+}
+
+.petcreds{
+    width: 40%;
+    margin-right: 13px;
+}
+
+.petcreds-list ul{
+    display: inline-block;
+    margin-right: 7em;
+}
+
+.footer-menu-list {
+    display: flex;
+}
+
+.cities{
+    width: 20%;
+    margin-right: 13px;
+}
+
+.cities ul li a{
+    display: block;
+}
+
+.join-us{
+    width: 20%;
+    margin-right: 13px;
+}
+
+.join-us ul li a{
+    display: block;
+    color: #fff;
+}
+
+.join-us ul li :nth-child(even){
+    color: #FFDB80;
+    margin-bottom: 1.5em;   
+}
+
+.connect{
+    width: 20%;
+}
+
+.connect ul li a{
+    color: #fff;
+    display: block;
+}
+/* Footer Menus Style End */
+
+/* Footer copyright content Start */
+
+.copyright-content {
+    margin-top: 8em;
+    padding-bottom: 40px;
+}
+
+.copyright-content img {
+    width: 150px;
+}
+
+.copyright-content p {
+    color: #33A1DB;
+    font-size: 14px;
+}
+
+p.copyright {
+    margin-right: 10em;
+}
+
+/* Footer copyright content Start */
